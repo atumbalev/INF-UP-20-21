@@ -28,27 +28,29 @@ The most straight forward and easiest setup of all:
 
 **DISCLAMER**: CLion is a subsription based paid IDE, however the good people from JetBrains have made it free to use for educational purposes. To get your free educational license you can register with your university e-mail (uni-sofia.bg) or ISIC card:
 1. <a href="https://www.jetbrains.com/shop/eform/students">Educational License</a>
-2.  <a href = "https://www.jetbrains.com/clion/download/">Download CLion</a>
+2. <a href = "https://www.jetbrains.com/clion/download/">Download CLion</a>
 3. Run CLion Installer
-4. Install your compiler of choice and remember where you saved it
+4. <a href="https://github.com/metalfen4eto/INF-UP-20-21/blob/master/Setup.MD#download-the-c-compiler-for-your-specific-os">Install your compiler of choice and remember where you saved it</a>
 5. Open a new project
 6. From the Dropdown menus:
   File->Settings->Build, Execution, Deployment->Toolchains
   Add a new **MinGW** Toolchain and for the environment select the path to the compiler
   It should auto detect everything and look like this:
 
+  ![](Images/ClionConf.png)
+
 ### Visual Studio Code
 <a href="https://github.com/fmi-lab/up-kn-2020-group-4/blob/master/Setup.md">VS Code Setup for C++</a>
 
 ### Sublime Text
 <b>Setup:</b>
-1. Install your compiler of choice
+1. <a href="https://github.com/metalfen4eto/INF-UP-20-21/blob/master/Setup.MD#download-the-c-compiler-for-your-specific-os">Install your compiler of choice</a>
 2. Download <a href = "https://www.sublimetext.com/">Sublime Text</a>
 
 <b>To Compile and Run:</b>
-3. Open your file with Sublime
-4.  Click ctrl + shift + b to see the compilation options and select **C++ Single File - Run**
-5. Once you have chosen your build system you can simply click ctrl + b to re-run it again
+1. Open your file with Sublime
+2. Click ctrl + shift + b to see the compilation options and select **C++ Single File - Run**
+3. Once you have chosen your build system you can simply click ctrl + b to re-run it again
 
 ### Download the C++ compiler for your specific os
 
