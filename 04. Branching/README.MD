@@ -104,3 +104,4 @@
 - Lх2, Lу2 - х и у координати на долния десен ъгъл на втория правоъгълник
 
 ![](Images/Rectangles.png)
+![](Images/ClionConfig.png)
