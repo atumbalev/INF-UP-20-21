@@ -59,7 +59,7 @@ long long fact(int n)
 
 Да се напише функция която по дадена стойност *x* намира числената стойност на производната на функцията: <b><i>f(x) = x<sup>2</sup> + 6x - 3</i></b>. 
 Напомняме от анализа, че производна на функция се дефинира по следния начин: \
-<img src="https://render.githubusercontent.com/render/math?math=\displaystyle \lim _{h\to 0}{\frac {f(x \plus h)-f(x)}{h}}"> В случая вместо да пресмятате границата може просто да вземете много малко константа `h = 0.000001` 
+<img src="https://render.githubusercontent.com/render/math?math=\displaystyle \lim _{h\to 0}{\frac {f(x \+ h)-f(x)}{h}}"> В случая вместо да пресмятате границата може просто да вземете много малко константа `h = 0.000001` 
 
 ### Задача 6
 
