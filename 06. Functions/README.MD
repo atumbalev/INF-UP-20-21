@@ -59,7 +59,7 @@ long long fact(int n)
 
 Да се напише функция която по дадена стойност *x* намира числената стойност на производната на функцията `$f(x) = x^2 + 6x - 3$`. \
 Напомняме от анализа, че производна на функция се дефинира по следния начин: \
-<img src="https://render.githubusercontent.com/render/math?math=\lim{\epsilon -> \inf} = \frac{f(x + \epsilon) - f(x)}{\epsilon}">
+<img src="https://render.githubusercontent.com/render/math?math=\lim_{\epsilon\to\infty} = \frac{f(x + \epsilon) - f(x)}{\epsilon}">
 
 ### Задача 6
 
