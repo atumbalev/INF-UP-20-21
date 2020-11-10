@@ -57,12 +57,9 @@ long long fact(int n)
 
 ### Задача 5
 
-Да се напише функция която по дадена стойност *x* намира числената стойност на производната на функцията: 
-```html
-f(x) = x<sup>2</sup> + 6x - 3</b>. 
-```
+Да се напише функция която по дадена стойност *x* намира числената стойност на производната на функцията: f(x) = x<sup>2</sup> + 6x - 3</b>. 
 Напомняме от анализа, че производна на функция се дефинира по следния начин: \
-<img src="https://render.githubusercontent.com/render/math?math=\lim_{\epsilon\to\infty} = \frac{f(x + \epsilon) - f(x)}{\epsilon}">
+<img src="https://render.githubusercontent.com/render/math?math=\displaystyle \lim _{h\to 0}{\frac {f(x+h)-f(x)}{h}}">
 
 ### Задача 6
 
