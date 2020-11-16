@@ -22,6 +22,23 @@ bool hasEqualNumberOfZeroesAndOnes(unsigned int n)
 	return onesCount == zeroesCount;
 }
 
+// Alternitive way to count number of zeroes and ones
+bool equalBits(int n) {
+    unsigned int zeros = 0;
+    unsigned int ones = 0;
+    
+    while (n != 0) {
+        if (n % 2 == 1) {
+            ones++;
+        } else {
+            zeros++;
+        }
+        
+        n /= 2;
+    }
+    return zeros == ones;
+}
+
 void printFirstTwenty()
 {
 	int count = 0;
