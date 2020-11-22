@@ -11,6 +11,7 @@ int maxElem(int arr[], int n) {
     return max;
 }
 
+
 int sndMax(int arr[], int n) {
     int max, sndMax;
 
