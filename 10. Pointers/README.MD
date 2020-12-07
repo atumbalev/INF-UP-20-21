@@ -34,3 +34,7 @@ const int* findFirstOf(const int* begin, const int* end, const int* sBegin, cons
 ```cpp
 const int* adjacent_find(const int* begin, const int* end)
 ```
+
+### Задача 7.
+
+Напишете функция, която приема указател към масив и неговата дължина и разделя масива по средата на други два.
