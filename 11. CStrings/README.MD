@@ -83,5 +83,6 @@ const char table[max_size][max_size]{
     {'a', 'k', 'e', 'r'},
 };
 ​
-std::cout << std::boolalpha << can_read_word(table, 4, "kappa") << '\n'; // true, start at [3,1] and go up-right, up-right, up-left, down-left
+std::cout << std::boolalpha << can_read_word(table, 4, "kappa") << '\n'; 
+// true, start at [3,1] and go up-right, up-right, up-left, down-left
 ```
