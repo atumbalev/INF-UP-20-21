@@ -19,12 +19,12 @@
 Създайте рекурсивна функция, която при подаване на двумерен масив(изобразяващ лабиринт с път в него) и 4 цели числа(използвани за координати на 2 точки), проверява дали между двете точки съществува път.
 Вход:
 
- 1 0 0 0 0 0
- 1 1 1 0 0 0
- 0 0 1 0 0 0
- 0 0 1 1 1 1
- 
- 0 0 3 5
+1 0 0 0 0 0 \
+1 1 1 0 0 0 \
+0 0 1 0 0 0 \
+0 0 1 1 1 1 \
+
+0 0 3 5
 
 Изход: true
 
@@ -40,17 +40,17 @@
 Пример:
 
 Input : 2
-Output : Disk 1 moved from A to B
-         Disk 2 moved from A to C
-         Disk 1 moved from B to C
+Output : Disk 1 moved from A to B \
+         Disk 2 moved from A to C \
+         Disk 1 moved from B to C \
 
 Input : 3
-Output : Disk 1 moved from A to C
-         Disk 2 moved from A to B
-         Disk 1 moved from C to B
-         Disk 3 moved from A to C
-         Disk 1 moved from B to A
-         Disk 2 moved from B to C
+Output : Disk 1 moved from A to C \
+         Disk 2 moved from A to B \
+         Disk 1 moved from C to B \
+         Disk 3 moved from A to C \
+         Disk 1 moved from B to A \
+         Disk 2 moved from B to C \
          Disk 1 moved from A to C
 
 ## Задача 6. 
