@@ -39,12 +39,12 @@
 
 Пример:
 
-Input : 2
+Input : 2 \
 Output : Disk 1 moved from A to B \
          Disk 2 moved from A to C \
          Disk 1 moved from B to C 
 
-Input : 3
+Input : 3 \
 Output : Disk 1 moved from A to C \
          Disk 2 moved from A to B \
          Disk 1 moved from C to B \
